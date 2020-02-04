@@ -39,6 +39,9 @@ body {
 article {
   place-items: center;
   display: grid;
+  text-align: center;
+  padding: 45px;
+}
 }
 
 div {
@@ -131,7 +134,7 @@ div {
   display: grid;
   grid-template: repeat(3, 1fr) / 1fr 1fr;
   height: 1200px;
-  background-color: rgb(160, 148, 148);
+  background-color: rgb(255, 255, 255);
   place-items: unset;
 }
 
@@ -159,6 +162,7 @@ div {
 
 .guide-links {
   background-color: rgb(160, 148, 148);
+  line-height: 3em;
 }
 
 .guide-links:hover {
@@ -170,6 +174,7 @@ div {
   grid-column: span 2 / -1;
   margin: 0 25px 0 0;
   border-radius: 15px;
+  line-height: 3em;
   background-color: rgb(65, 65, 65);
 }
 
@@ -197,7 +202,7 @@ footer ul {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   line-height: 1.5em;
   margin: 1em;

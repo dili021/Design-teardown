@@ -1,10 +1,11 @@
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Zhi Mang Xing', cursive;
   margin: 0;
   height: 100%;
   background-color: rgb(160, 148, 148);
 }
 
+/* navbar */
 .navbar-ul {
   list-style: none;
   display: grid;
@@ -24,6 +25,7 @@ body {
   text-align: center;
 }
 
+/* main */
 .articles-1-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,13 +37,6 @@ body {
 article {
   place-items: center;
   display: grid;
-  text-align: center;
-  padding: 45px;
-}
-
-h3 {
-  font-family: 'Zhi Mang Xing', cursive;
-  font-size: 1.5rem;
 }
 
 div {
@@ -95,7 +90,7 @@ div {
 }
 
 .articles-2 {
-  background-color: rgb(160, 148, 148);
+  background-color: rgb(248, 245, 245);
   border: 1px solid gray;
 }
 
@@ -105,7 +100,7 @@ div {
 }
 
 .articles-2:hover {
-  background-color: white;
+  background-color: darkgray;
   transition: 0.5s;
 }
 
@@ -134,7 +129,7 @@ div {
   display: grid;
   grid-template: repeat(3, 1fr) / 1fr 1fr;
   height: 1200px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(160, 148, 148);
   place-items: unset;
 }
 
@@ -162,7 +157,6 @@ div {
 
 .guide-links {
   background-color: rgb(160, 148, 148);
-  line-height: 3em;
 }
 
 .guide-links:hover {
@@ -174,7 +168,6 @@ div {
   grid-column: span 2 / -1;
   margin: 0 25px 0 0;
   border-radius: 15px;
-  line-height: 3em;
   background-color: rgb(65, 65, 65);
 }
 

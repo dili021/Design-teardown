@@ -1,6 +1,6 @@
 > Design-teardown
 
-![screenshot](./img/screenshot.jpeg)
+![screenshot](img/screenshot.jpeg)
 
 A clone of the beautifull new york times editorial.
 

@@ -10,6 +10,7 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+
   /* width: 100%; */
   height: 100px;
   margin: 0;
@@ -17,7 +18,6 @@ body {
 
 .navbar-ul :first-child {
   margin-left: -50px;
-
 }
 
 .navbar-ul li {
@@ -40,6 +40,7 @@ article {
   place-items: center;
   display: grid;
 }
+
 div {
   display: grid;
   place-items: center;
@@ -193,7 +194,6 @@ footer ul {
   width: 60%;
   list-style: none;
   justify-content: space-around;
-  
 }
 
 a {
@@ -206,6 +206,5 @@ a {
 
 a:hover {
   font-size: 1.2rem;
-  transition: .7s;
-
+  transition: 0.7s;
 }

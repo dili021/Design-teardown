@@ -11,7 +11,7 @@ A clone of the beautifull new york times editorial.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/dili021/Design-teardown/feature/index.html)
 
 ## Getting Started
 
@@ -51,11 +51,11 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
+Stefan Dili
 
-
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- Linkedin: [linkedin]()
+- Github: [@githubhandle](https://github.com/dili021)
+- Twitter: [@twitterhandle](@dilistefan)
+- Linkedin: [linkedin](stefan-dili)
 
 👤 **Author2**
 Aremu Lucky

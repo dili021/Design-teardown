@@ -11,7 +11,7 @@ A heatmap of the smashing magazine website
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/dili021/Design-teardown/feature/index.html)
+[Live Demo Link](https://rawcdn.githack.com/dili021/Design-teardown/7e1f01f6378f76b201cd07bed1c016724df0aa86/index.html)
 
 ## Getting Started
 

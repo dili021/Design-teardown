@@ -1,149 +1,175 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    height: 100%;
-    background-color: rgb(160, 148, 148);   
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  height: 100%;
+  background-color: rgb(160, 148, 148);
 }
+
 /* navbar */
-.navbar-ul{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    width: 100%;
-    height: 100px;
-    margin: 0;
+.navbar-ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+  height: 100px;
+  margin: 0;
 }
 
 .navbar-ul :first-child {
-    margin-left: -50px;
+  margin-left: -50px;
 }
 
 .navbar-ul li {
-    border-right: 1px solid black;
-    background-color: rgb(156, 156, 156);
-    padding: 25px;
-    text-align: center;
-    
+  border-right: 1px solid black;
+  background-color: rgb(156, 156, 156);
+  padding: 25px;
+  text-align: center;
 }
+
 /* main */
 .articles-1-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 1000px;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 1000px;
+  place-items: unset;
 }
 
 div {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
-/* .articles-1-grid p {
-    padding: 200px; */
 
+.top-design {
+  position: absolute;
+  background-color: lightgray;
+  height: 100px;
+  width: 300px;
+  left: 39%;
+  top: 130px;
+  z-index: 2;
+}
+
+.btn {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  width: 100px;
+  background-color: rgb(37, 35, 35);
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+}
 
 .grid1-same {
-    background-color: rgb(90, 90, 90);
+  background-color: rgb(90, 90, 90);
 }
 
 .grid1-light {
-    background-color: rgb(121, 120, 120);
+  background-color: rgb(121, 120, 120);
+  position: relative;
 }
 
 .grid1-dark {
-    background-color: rgb(61, 61, 61);
+  background-color: rgb(61, 61, 61);
 }
 
 .three-column-grid {
-    display: grid;
-    grid-template: 1fr 1.3fr 1fr / 1fr 1fr 1fr;
-    height: 1500px;
-    
+  display: grid;
+  grid-template: 1fr 1.3fr 1fr / 1fr 1fr 1fr;
+  height: 1500px;
+  place-items: unset;
 }
 
 .articles-2 {
-    background-color: rgb(160, 148, 148);
-    border: 1px solid gray;
+  background-color: rgb(160, 148, 148);
+  border: 1px solid gray;
 }
 
 .articles-2-dark {
-    background-color: rgb(65, 65, 65);
-    border-radius: 5px;
+  background-color: rgb(65, 65, 65);
+  border-radius: 5px;
 }
 
 .articles-2:hover {
-    background-color: white;
-    transition: .5s;
+  background-color: white;
+  transition: 0.5s;
 }
 
-/* .articles-2 p {
-    padding: 150px;
-} */
-
 .latest-articles {
-    height: 150px;
-    background-color: rgb(160, 148, 148);
-    border: 1px solid gray;
+  height: 500px;
+  background-color: rgb(160, 148, 148);
+  border: 1px solid gray;
 }
 
 .blue-div {
-    height: 900px;
-    background-color: rgb(107, 105, 105);
+  height: 100px;
+  background-color: rgb(160, 148, 148);
+}
+
+.ethical-book {
+  height: 500px;
+  background-color: lightgray;
 }
 
 .person-of-the-week {
-    height: 300px;
-    background-color: rgb(160, 148, 148);   
+  height: 200px;
+  background-color: rgb(160, 148, 148);
 }
 
 .articles-3-grid {
-    display: grid;
-    grid-template: repeat(3, 1fr) / 1fr 1fr;
-    height: 1200px;
-    background-color: rgb(160, 148, 148);   
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr 1fr;
+  height: 1200px;
+  background-color: rgb(160, 148, 148);
+  place-items: unset;
 }
 
 .articles-3 {
-    border: 3px solid gray;
+  border: 3px solid gray;
 }
 
 .more-links {
-    height: 100px;
-    background-color: rgb(160, 148, 148);   
+  height: 100px;
+  background-color: rgb(160, 148, 148);
 }
 
 .featured-book {
-    height: 250px;
-    background-color: rgb(65, 65, 65);
+  height: 350px;
+  background-color: rgb(65, 65, 65);
 }
 
 .guides-grid {
-    height: 1300px;
-    display: grid;
-    grid-template: 1fr 1fr / repeat(3, 1fr);
+  height: 1300px;
+  display: grid;
+  grid-template: 1fr 1fr / repeat(3, 1fr);
+  background-color: rgb(160, 148, 148);
+  place-items: unset;
 }
+
 .guide-links {
-    background-color: rgb(160, 148, 148);   
+  background-color: rgb(160, 148, 148);
 }
 
 .guide-links:hover {
-    background-color: white;
-    transition: .5s;
+  background-color: white;
+  transition: 0.5s;
 }
 
 .newsletter {
-    grid-column: span 2 / -1;
-    margin: 0 25px 0 0;
-    border-radius: 15px;
-    background-color: rgb(65, 65, 65);
+  grid-column: span 2 / -1;
+  margin: 0 25px 0 0;
+  border-radius: 15px;
+  background-color: rgb(65, 65, 65);
 }
 
 .see-articles {
-    height: 130px;
-    background-color: rgb(160, 148, 148);      
+  height: 200px;
+  background-color: rgb(160, 148, 148);
 }
 
 .topics {
-    height: 650px;
-    background-color: rgb(65, 65, 65);
+  height: 650px;
+  background-color: rgb(65, 65, 65);
 }

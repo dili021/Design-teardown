@@ -2,7 +2,7 @@
 
 ![screenshot](img/Screenshot.jpg)
 
-A heatmap of the smashing magazine website
+- A heatmap of the [smashing magazine website](https://www.smashingmagazine.com/)
 
 ## Built With
 
@@ -11,37 +11,35 @@ A heatmap of the smashing magazine website
 
 ## Live Demo
 
-[Live Demo Link](https://pedantic-ramanujan-2c9438.netlify.com/)
+[Demo Link](https://pedantic-ramanujan-2c9438.netlify.com/)
 
 ## Getting Started
 
-Clone or fork this repo and play around with it as you wish
+- Clone the repo to your machine
+- Open with chosen text editor
+- Experiment with editing the HTML and CSS files
 
 ### Prerequisites
 
 - Get your browsers up to date
 
-### Setup
-
-- Clone the repository on your local machine
-- cd into the folder, find the index.html file and open it
-
 ### Install
 
 - Install VSCode or any code editor you like
 - Install Node JS and nmp(most recents versions)
-- Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev
+- Run this command on your terminal in order to install stylelint `npm install stylelint stylelint-config-recommended --save-dev`
+
 
 ### Usage
 
 ### Run tests
 
-- Test the css by typing the command: npx stylelint .
+- Test the css by running  `npx stylelint .`
 - Go to http://validator.w3.org/ , upload the index.html file to test it.
 
 ### Deployment
 
-- Get an online web hosting
+- Choose an online web hosting service
 - Upload all the files in the htdocs folder of your domain
 - Access your domain name in browser
 
@@ -65,21 +63,6 @@ Aremu Lucky
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- [smashing magazine](https://www.smashingmagazine.com/)
-
-## 📝 License
-
-
-
-
-
-
-
